@@ -5,7 +5,7 @@ import Loading from "../components/Loading";
 
 import Error from "../components/Error";
 
-import background from "../images/img1.jpg";
+
 
 export default function Loginscreen() {
   const loginState=useSelector(state=>state.loginUserReducer)
@@ -29,7 +29,7 @@ export default function Loginscreen() {
   });
   
   return (
-    <div >
+    <div className="login">
       <div className="row justify-content-center mt-5">
         <div className="col-md-5 mt-5 text-start shadow-lg p-3 mb-5 bg-white rounded ">
           <h2 className="text-center m-2" style={{ fontSize: "35px" }}>

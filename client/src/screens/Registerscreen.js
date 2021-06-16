@@ -30,7 +30,7 @@ export default function Registerscreen() {
   }
 
   return (
-    <div>
+    <div className="register">
        
       <div className="row justify-content-center mt-5">
      
