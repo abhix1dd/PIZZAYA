@@ -4,7 +4,7 @@ const { v4: uuidv4 } = require("uuid");
 const stripe = require("stripe")(
   "sk_test_51IzKhCSGhhaLWdoRarO1f7yIhSKofIcikmF1Jq4NOUxoW03Glh3gBwtQJO2eHLZNdo0G00AOUtSzJyO9d2L8ekTE00RENzjaYE"
 );
-/*This is for change*/ 
+
 const Order = require("../models/orderModel");
 
 router.post("/placeorder", async (req, res) => {
