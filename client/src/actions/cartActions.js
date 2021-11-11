@@ -11,7 +11,7 @@ export const addToCart = (pizza, quantity, varient) => (dispatch, getState) => {
 
   
     if(quantity>10){
-        alert("You can add more than 10 items")
+        alert("You can not add more than 10 items")
     }
     else{
       if(quantity<1){
